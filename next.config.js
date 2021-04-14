@@ -1,6 +1,11 @@
+const withPWA = require("next-pwa");
+
 module.exports = {
   images: {
-    domains: ['images.ctfassets.net'],
+    domains: ["images.ctfassets.net"],
   },
-  target: 'serverless'
-}
+  target: "serverless",
+  pwa: {
+    dest: "public",
+  },
+};
