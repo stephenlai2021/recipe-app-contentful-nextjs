@@ -1,5 +1,5 @@
 import { createClient } from 'contentful'
-import RecipeCard from '../components/RecipeCard'
+import RecipeCard from '../components/recipe-card'
 
 export async function getStaticProps() {
 
